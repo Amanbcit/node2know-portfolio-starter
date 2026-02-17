@@ -1,0 +1,23 @@
+{
+  "name": "node_a01",
+  "version": "1.0.0",
+  "description": "Node A01 - Portfolio Launchpad",
+  "keywords": [
+    "node",
+    "express",
+    "portfolio",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "Amandeep Singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  }
+}
