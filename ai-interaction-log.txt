@@ -1,0 +1,11 @@
+AI Interaction Log — Node A01: Portfolio Launchpad
+===================================================
+Tool(s) Used:
+- Gemini (chat) via google :
+  Prompt: elaborate path.join(__dirname, '..', 'pages');
+  Response: path.join(...): A method from the Node.js Path module that joins segments into a single path string. It is preferred over string concatenation because it automatically handles different separators for Windows (\) and POSIX (/) systems.
+            __dirname: A global variable in CommonJS modules that provides the absolute path of the directory containing the current script.
+            '..': A relative path segment meaning "go up one directory level".
+            'pages': The target folder name you want to access.
+
+-
