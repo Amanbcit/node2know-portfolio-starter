@@ -24,7 +24,6 @@ app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Not found' });
 });
 
-
 // start the server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT} at http://localhost:${PORT}`);

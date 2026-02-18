@@ -2,14 +2,14 @@ AI Interaction Log — Node A01: Portfolio Launchpad
 ===================================================
 Tool(s) Used:
 - Gemini (chat) via google :
-  Prompt: elaborate path.join(__dirname, '..', 'pages');
+  Prompt: "elaborate path.join(__dirname, '..', 'pages');"
   Response: path.join(...): A method from the Node.js Path module that joins segments into a single path string. It is preferred over string concatenation because it automatically handles different separators for Windows (\) and POSIX (/) systems.
             __dirname: A global variable in CommonJS modules that provides the absolute path of the directory containing the current script.
             '..': A relative path segment meaning "go up one directory level".
             'pages': The target folder name you want to access.
 
 -Claud Opus4.6 via webapp chat :
-  Prompt: how the flow of a contact form will work in the backend and frontend given we are preloading js and css files in the contact.html file use the reference contact.html
+  Prompt: "how the flow of a contact form will work in the backend and frontend given we are preloading js and css files in the contact.html file use the reference contact.html"
   Response:   BROWSER                                          SERVER
              ═══════                                          ══════
 
@@ -36,6 +36,10 @@ Tool(s) Used:
              5. contact.js reads response
                 → injects message into #form_response
                 → resets form if success
+
+- Gemini (Antigravity agent) via IDE:
+    Prompt: "write a simple styles.css for the pages directory with subtle card hovers, box-shadows"
+    Response: styles.css was edited by the agent.
 
 - Gemini (Antigravity agent) via IDE:
   Prompt: "write the README.md in root as per instructions from node2know-portfolio-starter/README.md"

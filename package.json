@@ -8,7 +8,7 @@
     "portfolio",
     "api"
   ],
-  "license": "ISC",
+  "license": "Node2Know-LEARN-1.0",
   "author": "Amandeep Singh",
   "type": "commonjs",
   "main": "index.js",
